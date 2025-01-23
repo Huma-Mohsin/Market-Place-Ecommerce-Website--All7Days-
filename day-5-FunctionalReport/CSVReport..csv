@@ -1,0 +1,16 @@
+Test Case ID,Description,Expected Result,Actual Result,Status,Severity,Remark
+TC001,Navigation links,All links navigate correctly,All links are working properly,Pass,Low,No issues found
+TC002,User Registration and Login,User data is stored and login is successful,Data is not attached to DB,Fail,Critical,Fix DB connection and user data storage
+TC003,Help Route,Icons and information respond properly,Icons do not respond,Fail,Medium,Ensure icon click events are handled
+TC004,Sign-in Functionality,User can sign in successfully,No response after submitting data,Fail,Critical,Debug backend for sign-in data handling
+TC005,Gift Cards and Vouchers,Voucher window opens and works correctly,Works as expected,Pass,Low,No issues found
+TC006,Add to Cart,Captures data and proceeds to checkout,Fails to capture real-time data,Fail,Critical,Add data capture and checkout functionality
+TC007,Search Bar,Search returns results dynamically,Search results works properly,Pass,Low,Need to navigate a search to particular product.
+TC008,News And Features,Works properly and includes pagination functionality . ,Works fine,Pass,Low,No issues found
+TC009,Buttons for Men/Women,Navigate to appropriate routes,Works fine,Pass,Low,No issues found
+TC010,Picture Cards,Navigate to desired category on click,No navigation functionality,Fail,Medium,Add event handling for navigation
+TC011,Trending Week Cards,Navigate to product details on click,No click event mechanism,Fail,Medium,Implement click event for product details
+TC012,Overall Responsive Design,Responsive across all devices,Works as expected,Pass,Low,No issues found
+TC013,Footers,Navigate to specified routes,Navigation not implemented,Fail,Medium,Add footer navigation functionality
+TC014,Shop Now Button,Proceed to product list on click,No functionality on click,Fail,Critical,Implement shop now functionality
+TC015,Dynamic Product Route,Load product details on click,API failed to fetch single product details,Fail,medium,Debug API to fetch product details correctly
