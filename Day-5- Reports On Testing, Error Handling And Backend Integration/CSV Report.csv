@@ -1,0 +1,11 @@
+Test Case ID,Test Case ID,Test Case ID,Test Case ID,Test Case ID,Test Case ID,Test Case ID
+TC001,Verify login functionality,1. Open login page. 2. Enter valid username and password. 3. Click on login button.,User is logged in successfully and redirected to the homepage,User is logged in successfully and redirected to the homepage,Passed,High
+TC002,Verify login with invalid credentials,1. Open login page. 2. Enter invalid username and password. 3. Click on login button.,"User sees an error message ""Invalid username or password.""","User sees an error message ""Invalid username or password.""",Passed,High
+TC003,Check product details page,1. Go to product listing page. 2. Click on a product.,"Product details page is displayed with correct name, price, and description","Product details page is displayed with correct name, price, and description",Passed,High
+TC004,Add product to cart,1. Go to product details page. 2. Click 'Add to Cart' button.,Product is added to the cart and cart icon updates with item count,Product added to the cart and cart icon update well.,Passed,High
+TC005,Check cart page,1. Go to cart page.,Cart page displays all added products with correct details.,Cart page displays all added products with correct details,Passed,High
+TC006,Verify checkout process,1. Go to cart page. 2. Click on checkout button. 3. Enter shipping and payment details,User is directed to confirmation page with correct details and total price.,User is directed to confirmation page with correct price,Passed,High
+TC007,Verify responsiveness on mobile,1. Open website on mobile device.,Website layout adjusts correctly for mobile view.,Website layout adjusts correctly for mobile view.,Passed,High
+TC008,Verify sign-up process,1. Open sign-up page. 2. Enter valid details. 3. Click sign-up button.,User is signed up successfully and redirected to login page.,User is signed up successfully and redirected to login page.,Passed,High
+TC009,Check product search,1. Go to homepage. 2. Type a product name in the search bar. 3. Press enter.,Relevant products are shown in search results.,Relevant products are shown in search results.,Passed,High
+TC010,Verify email notifications,1. Complete a purchase. 2. Check email inbox for confirmation.,User receives a confirmation email with order details.,User does not receive a confirmation email,Failed,Low
